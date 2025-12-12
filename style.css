@@ -1,0 +1,104 @@
+.unselected{
+    color: #fff;
+}
+
+.footer{
+    font-weight: bold;
+
+
+
+}
+
+.ci{
+
+      width: 600px;
+      margin: auto;
+      box-shadow: 0 5px 10px rgb(0, 0, 0);}
+
+.ci { width: 500px; }
+@media (min-width: 768px) { 
+  .ci { width: 700px; }
+}
+
+.ct{
+  font-size: 18px;
+  margin-left: 21px;
+  margin-right: 21px;
+}
+
+@media (min-width: 768px) {
+  .ct{
+    font-size: 30px;
+  }
+}
+
+.hero-section {
+            background: url('school-bg.jpg') center/cover no-repeat;
+            padding: 140px 20px;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            position: relative;
+        }
+
+.hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.45);
+        }
+
+.hero-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+.info-card {
+            border-radius: 12px;
+            overflow: hidden;
+            height: 210px;
+            background-color: #fffed7d0;
+        }
+
+footer {
+            background: #212529;
+            padding: 50px;
+            color: #ffffff;
+            height: 255px;
+        }
+
+table {
+    font-size: larger;
+    font-weight: 350;
+}
+
+ html, body {
+  height: 100%; 
+  margin: 0;
+  display: flex;
+  flex-direction: column; 
+}
+
+.content-wrapper {
+  flex: 1; /* takes all remaining space above footer */
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: flex-start; /* top-align form, you can change to center */
+  padding-top: 30px;       /* optional spacing from top */
+  padding-bottom: 30px;    /* spacing above footer */
+}
+
+.form2 {
+  background-color: #fefee7;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px; /* keeps form responsive */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  flex-shrink: 0; /* prevent footer from shrinking */
+}
